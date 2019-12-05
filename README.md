@@ -21,20 +21,28 @@ Start the project
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
+This runs the app in the development mode.<br />
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-Please push your solution to your own branch
+## Please push your solution to your own branch
+
+To create a new branch
 
 ### `git checkout -b your_branch_name`
+
+Add and commit after making some changes
 
 ### `git add .`
 
 ### `git commit -m "commit message"`
 
+Push changes to the repository
+
 ### `git push origin your_branch_name`
+
+Happy coding! Don't be scared to ask for help :)
 
