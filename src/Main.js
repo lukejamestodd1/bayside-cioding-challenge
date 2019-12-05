@@ -1,158 +1,43 @@
-import React from 'react';
+import React, {Component} from 'react';
+
+import API from './Api';
+
+import Hero from './Hero';
+import Amenities from './Amenities';
+import Gallery from './Gallery.js';
+import Accordion from './Accordion.js';
 
 function Main(){
     return (
         <section aria-label="Main content">
-    <div id="block-system-main" class="block block-system">
-
-    
-  <div class="content">
-    <div id="node-4061" class="node node-venue-2-0 clearfix" about="/brighton-town-hall" typeof="sioc:Item foaf:Document">
-      <div class="row hero-section">
-      <div class="col-md-8 col-md-push-4">
-        <div class="hero-section--image">
-          <div class="field field-name-field-feature-image field-type-image field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_hero_image/public/facilities_and_venues/dsc_3326.jpg?itok=OWA-XaKH" width="1240" height="675" alt="External view of Brighton Town Hall"></img></div>
-      </div>
-</div>
-          <div class="field field-name-field-feature-image-mobile- field-type-image field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_hero_image__mobile_/public/facilities_and_venues/dsc_3326.jpg?itok=ZQHA-UJS" width="425" height="425" alt="External view of Brighton Town Hall"></img></div>
-      </div>
-</div>
-          <a href="#view-this-space-gallery" class="hero-section--gallery-link toc-filter-processed"><i class="fa fa-th"></i>View this space</a>
-        </div>
-      </div>
-      <div class="col-md-4 col-md-pull-8">
-        <div class="hero-section--details">
-          <div class="field field-name-field-location field-type-text-long field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even">Corner Carpenter St and Wilson St
-Brighton, VIC 3186</div>
-      </div>
-</div>
-          <h1>Brighton Town Hall</h1>
-          <div class="bookable-spacesfield field-name-field-available-spaces field-type-text field-label-above">
-      <div class="field-label">Bookable spaces</div>
-    <ul class="field-items">
-          <li class="field-item even">Town hall</li>
-      </ul>
-</div>
-                    <span property="dc:title" content="Brighton Town Hall" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>        </div>
-      </div>
-    </div>
-
-    <div class="content">
-      <div class="container">
-        <div class="field field-name-body field-type-text-with-summary field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even" property="content:encoded"><p>The Brighton Town Hall provides a majestic space for events like weddings, birthdays, performances, concerts, parties, functions or community and fundraising events.</p>
-<p>The hall&nbsp;is 650m from Middle Brighton Train Station. It includes a theatrical stage including a lift, piano, commercial kitchen and room for 200&nbsp;seated people.</p>
-<p>The historic architecture provides an elegant backdrop for any event.</p>
-<h2>Capacity</h2>
-<ul><li>250 standing</li>
-<li>200 seated</li>
-</ul></div>
-      </div>
-</div>
-        <hr></hr>
-        <div class="field-collection-container clearfix"><div class="field field-name-field-amenities field-type-field-collection field-label-above">
-      <h2>Amenities</h2>
-    <div class="field-items row">
-          <div class="field-item col-md-6 even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-amenities clearfix" about="/field-collection/field-amenities/2886" typeof="">
-  <div class="content">
-    <div class="field field-name-field-font-awesome field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even"><i class="fa fa-ticket"></i></div>
-      </div>
-</div>
-<div class="field field-name-field-amenity-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even">Stage including lift</div>
-      </div>
-</div>
-  </div>
-</div>
-</div></div>
-          <div class="field-item col-md-6 odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-amenities clearfix" about="/field-collection/field-amenities/2887" typeof="">
-  <div class="content">
-    <div class="field field-name-field-font-awesome field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even"><i class="fa fa-cutlery"></i></div>
-      </div>
-</div>
-<div class="field field-name-field-amenity-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even">Commercial kitchen</div>
-      </div>
-</div>
-  </div>
-</div>
-</div></div>
-          <div class="field-item col-md-6 even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-amenities clearfix" about="/field-collection/field-amenities/2888" typeof="">
-  <div class="content">
-    <div class="field field-name-field-font-awesome field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even"><i class="fa fa-thermometer-half"></i></div>
-      </div>
-</div>
-<div class="field field-name-field-amenity-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even">Cooling and heating</div>
-      </div>
-</div>
-  </div>
-</div>
-</div></div>
-          <div class="field-item col-md-6 odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-amenities clearfix" about="/field-collection/field-amenities/2889" typeof="">
-  <div class="content">
-    <div class="field field-name-field-font-awesome field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even"><i class="fa fa-music"></i></div>
-      </div>
-</div>
-<div class="field field-name-field-amenity-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even">Piano</div>
-      </div>
-</div>
-  </div>
-</div>
-</div></div>
-      </div>
-</div>
-</div>        <hr></hr>
-        <div class="field field-name-field-gallery-image field-type-image field-label-above">
-      <h2 id="view-this-space-gallery">View this space</h2>
-    <div class="field-items row">
-          <div class="field-item col-md-3 col-sm-6 col-xs-6 even ">
-        
-<a href="https://www.bayside.vic.gov.au/sites/default/files/facilities_and_venues/dsc_3390_r.jpg"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_tour_image/public/facilities_and_venues/dsc_3390_r.jpg?itok=yLeXfLHu" width="245" height="170" alt="View of stage from under dress circle"></img></a><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Stage from under dress circle</div></div></div>      </div>
-          <div class="field-item col-md-3 col-sm-6 col-xs-6 odd ">
-        
-<a href="https://www.bayside.vic.gov.au/sites/default/files/facilities_and_venues/dsc_3421.jpg"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_tour_image/public/facilities_and_venues/dsc_3421.jpg?itok=l5Id87ke" width="245" height="170" alt="Main hall back"></img></a><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Back of main hall</div></div></div>      </div>
-          <div class="field-item col-md-3 col-sm-6 col-xs-6 even ">
-        
-<a href="https://www.bayside.vic.gov.au/sites/default/files/facilities_and_venues/dsc_3449.jpg"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_tour_image/public/facilities_and_venues/dsc_3449.jpg?itok=X-rgkUdl" width="245" height="170" alt="Foyer from upstairs"></img></a><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Foyer from upstairs</div></div></div>      </div>
-          <div class="field-item col-md-3 col-sm-6 col-xs-6 odd ">
-        
-<a href="https://www.bayside.vic.gov.au/sites/default/files/facilities_and_venues/brighton_town_hall_ceiling.jpg"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_tour_image/public/facilities_and_venues/brighton_town_hall_ceiling.jpg?itok=TxVvtQz7" width="245" height="170" alt="Ornate ceiling"></img></a><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Ceiling</div></div></div>      </div>
-          <div class="field-item col-md-3 col-sm-6 col-xs-6 even hidden">
-        
-<a href="https://www.bayside.vic.gov.au/sites/default/files/facilities_and_venues/brighton_town_hall_gardens.jpg"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_tour_image/public/facilities_and_venues/brighton_town_hall_gardens.jpg?itok=UzkyB17L" width="245" height="170" alt="Rose garden"></img></a><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Rose garden</div></div></div>      </div>
-          <div class="field-item col-md-3 col-sm-6 col-xs-6 odd hidden">
-        
-<a href="https://www.bayside.vic.gov.au/sites/default/files/facilities_and_venues/dsc_3335.jpg"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_tour_image/public/facilities_and_venues/dsc_3335.jpg?itok=bAzrRhkG" width="245" height="170" alt="Garden Pond"></img></a><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Garden pond</div></div></div>      </div>
-          <div class="field-item col-md-3 col-sm-6 col-xs-6 even hidden">
-        
-<a href="https://www.bayside.vic.gov.au/sites/default/files/facilities_and_venues/brighton_town_hall_kitchen.jpg"><img typeof="foaf:Image" src="https://www.bayside.vic.gov.au/sites/default/files/styles/venue_2_0_tour_image/public/facilities_and_venues/brighton_town_hall_kitchen.jpg?itok=HhlH_gAo" width="245" height="170" alt="Commercial kitchen"></img></a><div class="field field-name-field-image-caption field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Commercial kitchen</div></div></div>      </div>
-      </div>
-      <div class="row">
-      <div class="col-sm-12"><a href="#tour-this-space-gallery" class="view-all-photos js-view-all-photos toc-filter-processed">View all 7 photos</a></div>
-    </div>
-  </div>
-        <hr></hr>
+            <div id="block-system-main" class="block block-system">
+                <div class="content">
+                    <div id="node-4061" class="node node-venue-2-0 clearfix" about="/brighton-town-hall" typeof="sioc:Item foaf:Document">
+                        <Hero></Hero>
+                        <div class="content">
+                            <div class="container">
+                                <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                                    <div class="field-items">
+                                        <div class="field-item even" property="content:encoded">
+                                            <p>The Brighton Town Hall provides a majestic space for events like weddings, birthdays, performances, concerts, parties, functions or community and fundraising events.</p>
+                                            <p>The hall&nbsp;is 650m from Middle Brighton Train Station. It includes a theatrical stage including a lift, piano, commercial kitchen and room for 200&nbsp;seated people.</p>
+                                            <p>The historic architecture provides an elegant backdrop for any event.</p>
+                                            <h2>Capacity</h2>
+                                            <ul>
+                                                <li>250 standing</li>
+                                                <li>200 seated</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr></hr>
+                                <Amenities></Amenities>       
+                                <hr></hr>
+                                <Gallery></Gallery>
+                                <hr></hr>
+                                {/* {API.map(heading)} */}
+                                <Accordion></Accordion>
+                                <hr></hr>
         
         <div class="field-collection-container clearfix">
             <div class="field field-name-field-pricing-sections field-type-field-collection field-label-above js-multi-accordion multi-accordion">
@@ -337,21 +222,21 @@ Brighton, VIC 3186</div>
                     </div>
                 </div>
         <hr></hr>
-        <div class="field-collection-container clearfix">
+    <div class="field-collection-container clearfix">
 
-<div class="field field-name-field-before-booking field-type-field-collection field-label-above js-multi-accordion multi-accordion">
-      <h2>Before Booking</h2>
-    <div class="field-items">
-    
-<div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2893" typeof="">
-  <div class="content">
-    
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">What seating is available?<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
+        <div class="field field-name-field-before-booking field-type-field-collection field-label-above js-multi-accordion multi-accordion">
+            <h2>Before Booking</h2>
+            <div class="field-items">
+            
+        <div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2893" typeof="">
+        <div class="content">
+            
+        <div class="field field-name-field-accordion-title field-type-text field-label-hidden">
+            <div class="field-items">
+                <h3 class="field-item even">What seating is available?<i class="fa fa-angle-up" aria-hidden="true"></i>
+        </h3>
+            </div>
+    </div>
 
 
 <div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>Brighton Town Hall has:</p>
@@ -365,6 +250,7 @@ Brighton, VIC 3186</div>
 
 
 </div></div>
+
             </div>
 
       
