@@ -1,12 +1,10 @@
 const API = {
-    'Pricing': {
-        'Main hall': "Here is some hidden pricing information for the historic main hall",
-        'Gardens': "You can also book the beautiful Brighton Town Hall Gardens",
-        'Additional pricing information': "Here is some hidden additional pricing information"
-    },
-    'Before Booking': {
-        'What seating is available?': "Here is some hidden information",
-    }
+    'Pricing': [
+        'Main hall',
+        'Gardens',
+        'Additional pricing information'
+    ],
+    'Before Booking': ['What seating is available?', 'What events are permitted?', 'What is not allowed in the hall?', 'When do I have to pay?', 'Who can provide catering?']
 };
 
 export default API;
