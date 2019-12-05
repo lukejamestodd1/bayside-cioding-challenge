@@ -153,182 +153,189 @@ Brighton, VIC 3186</div>
     </div>
   </div>
         <hr></hr>
+        
         <div class="field-collection-container clearfix">
+            <div class="field field-name-field-pricing-sections field-type-field-collection field-label-above js-multi-accordion multi-accordion">
+            <h2>Pricing</h2>
+            <div class="field-items">
+                <div class="field-item even">
+                    <div class="field-collection-view clearfix view-mode-full">
+                        <div class="entity entity-field-collection-item field-collection-item-field-pricing-sections clearfix closed" about="/field-collection/field-pricing-sections/2890" typeof="">
+                            <div class="content">
+                                
+                                <div class="field field-name-field-accordion-title field-type-text field-label-hidden">
+                                    <div class="field-items">
+                                        <h3 class="field-item even">Main hall<i class="fa fa-angle-up" aria-hidden="true"></i></h3>
+                                    </div>
+                                </div>
 
-<div class="field field-name-field-pricing-sections field-type-field-collection field-label-above js-multi-accordion multi-accordion">
-      <h2>Pricing</h2>
-    <div class="field-items">
-          <div class="field-item even"><div class="field-collection-view clearfix view-mode-full">
+                                <div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><h4>4 hour slot 6am to 5pm</h4>
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Days</th>
+                                                <th scope="col" style={{'text-align': 'right'}}>Cost</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Mon to Thurs</td>
+                                                <td style={{'text-align': 'right'}}>$483.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Friday</td>
+                                                <td style={{'text-align': 'right'}}>$483.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Weekend</td>
+                                                <td style={{'text-align': 'right'}}>$703.55</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Public holiday</td>
+                                                <td style={{'text-align': 'right'}}>$703.55</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
 
-<div class="entity entity-field-collection-item field-collection-item-field-pricing-sections clearfix closed" about="/field-collection/field-pricing-sections/2890" typeof="">
-  <div class="content">
-    
+                                    <h4>&nbsp;</h4>
+                                    <h4>Evening 5pm to midnight</h4>
 
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">Main hall<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Days</th>
+                                                <th scope="col" style={{'text-align': 'right'}}>Cost</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Mon to Thurs</td>
+                                                <td style={{'text-align': 'right'}}>$787.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Friday</td>
+                                                <td style={{'text-align': 'right'}}>$1155.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Weekend</td>
+                                                <td style={{'text-align': 'right'}}>$1155.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Public holiday</td>
+                                                <td style={{'text-align': 'right'}}>$1155.00</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <h4>&nbsp;</h4>
+                                    <h4>Full day 6am to 5pm</h4>
+
+                                    <table border="0" cellpadding="0" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Days</th>
+                                                <th scope="col" style={{'text-align': 'right'}}>Cost</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Mon to Thurs</td>
+                                                <td style={{'text-align': 'right'}}>$782.25</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Friday</td>
+                                                <td style={{'text-align': 'right'}}>$782.25</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Weekend</td>
+                                                <td style={{'text-align': 'right'}}>$1076.25</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Public holiday</td>
+                                                <td style={{'text-align': 'right'}}>$1076.25</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="field-item odd">
+            <div class="field-collection-view clearfix view-mode-full">
+                <div class="entity entity-field-collection-item field-collection-item-field-pricing-sections clearfix closed" about="/field-collection/field-pricing-sections/2892" typeof="">
+                    <div class="content">
+                        <div class="field field-name-field-accordion-title field-type-text field-label-hidden">
+                            <div class="field-items">
+                                <h3 class="field-item even">Gardens<i class="fa fa-angle-up" aria-hidden="true"></i></h3>
+                            </div>
+                        </div>
+
+
+                <div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}>
+                    <div class="field-items">
+                        <div class="field-item even">
+                            <p>You can also <a href="https://www.bayside.vic.gov.au/facilities-venues/brighton-town-hall-gardens">book the beautiful Brighton Town Hall gardens</a>.</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
 </div>
+                        <div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final">
 
+                <div class="entity entity-field-collection-item field-collection-item-field-pricing-sections clearfix closed" about="/field-collection/field-pricing-sections/2927" typeof="">
+                <div class="content">
+                    
+                <div class="field field-name-field-accordion-title field-type-text field-label-hidden">
+                    <div class="field-items">
+                        <h3 class="field-item even">Additional pricing information<i class="fa fa-angle-up" aria-hidden="true"></i>
+                </h3>
+                    </div>
+                </div>
 
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><h4>4 hour slot 6am to 5pm</h4>
-<table border="0" cellpadding="0" cellspacing="0">
-<thead>
-<tr>
-<th scope="col">Days</th>
-<th scope="col" style={{'text-align': 'right'}}>Cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mon to Thurs</td>
-<td style={{'text-align': 'right'}}>$483.00</td>
-</tr>
-<tr>
-<td>Friday</td>
-<td style={{'text-align': 'right'}}>$483.00</td>
-</tr>
-<tr>
-<td>Weekend</td>
-<td style={{'text-align': 'right'}}>$703.55</td>
-</tr>
-<tr>
-<td>Public holiday</td>
-<td style={{'text-align': 'right'}}>$703.55</td>
-</tr>
-</tbody>
-</table>
-<h4>&nbsp;</h4>
-<h4>Evening 5pm to midnight</h4>
-<table border="0" cellpadding="0" cellspacing="0">
-<thead>
-<tr>
-<th scope="col">Days</th>
-<th scope="col" style={{'text-align': 'right'}}>Cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mon to Thurs</td>
-<td style={{'text-align': 'right'}}>$787.50</td>
-</tr>
-<tr>
-<td>Friday</td>
-<td style={{'text-align': 'right'}}>$1155.00</td>
-</tr>
-<tr>
-<td>Weekend</td>
-<td style={{'text-align': 'right'}}>$1155.00</td>
-</tr>
-<tr>
-<td>Public holiday</td>
-<td style={{'text-align': 'right'}}>$1155.00</td>
-</tr>
-</tbody>
-</table>
-<h4>&nbsp;</h4>
-<h4>Full day 6am to 5pm</h4>
-<table border="0" cellpadding="0" cellspacing="0">
-<thead>
-<tr>
-<th scope="col">Days</th>
-<th scope="col" style={{'text-align': 'right'}}>Cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Mon to Thurs</td>
-<td style={{'text-align': 'right'}}>$782.25</td>
-</tr>
-<tr>
-<td>Friday</td>
-<td style={{'text-align': 'right'}}>$782.25</td>
-</tr>
-<tr>
-<td>Weekend</td>
-<td style={{'text-align': 'right'}}>$1076.25</td>
-</tr>
-<tr>
-<td>Public holiday</td>
-<td style={{'text-align': 'right'}}>$1076.25</td>
-</tr>
-</tbody>
-</table>
-</div></div></div>  </div>
-</div>
+                <div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><h4>&nbsp;</h4>
+                <table border="0" cellpadding="0" cellspacing="0">
+                <thead>
+                <tr>
+                <th scope="col" style={{'text-align': 'left'}}>Type of fee</th>
+                <th scope="col" style={{'text-align': 'right'}}>Cost</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                <td>Bond</td>
+                <td style={{'text-align': 'right'}}>$500.00</td>
+                </tr>
+                <tr>
+                <td>Key deposit</td>
+                <td style={{'text-align': 'right'}}>$50.00</td>
+                </tr>
+                <tr>
+                <td>Public liability insurance</td>
+                <td style={{'text-align': 'right'}}>$35.20</td>
+                </tr>
+                </tbody>
+                </table>
+                <h3>&nbsp;</h3>
+                <h3>Not for profit discount</h3>
+                <p>Not for profit organisations can apply for a discount on their hourly rates.</p>
+                </div></div></div>  </div>
+                </div>
 
-</div></div>
-          <div class="field-item odd"><div class="field-collection-view clearfix view-mode-full">
+                </div></div>
+                    </div>
+                </div>
 
-<div class="entity entity-field-collection-item field-collection-item-field-pricing-sections clearfix closed" about="/field-collection/field-pricing-sections/2892" typeof="">
-  <div class="content">
-    
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">Gardens<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>You can also <a href="https://www.bayside.vic.gov.au/facilities-venues/brighton-town-hall-gardens">book the beautiful Brighton Town Hall gardens</a>.</p>
-</div></div></div>  </div>
-</div>
-
-
-</div></div>
-          <div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final">
-
-<div class="entity entity-field-collection-item field-collection-item-field-pricing-sections clearfix closed" about="/field-collection/field-pricing-sections/2927" typeof="">
-  <div class="content">
-    
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">Additional pricing information<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><h4>&nbsp;</h4>
-<table border="0" cellpadding="0" cellspacing="0">
-<thead>
-<tr>
-<th scope="col" style={{'text-align': 'left'}}>Type of fee</th>
-<th scope="col" style={{'text-align': 'right'}}>Cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bond</td>
-<td style={{'text-align': 'right'}}>$500.00</td>
-</tr>
-<tr>
-<td>Key deposit</td>
-<td style={{'text-align': 'right'}}>$50.00</td>
-</tr>
-<tr>
-<td>Public liability insurance</td>
-<td style={{'text-align': 'right'}}>$35.20</td>
-</tr>
-</tbody>
-</table>
-<h3>&nbsp;</h3>
-<h3>Not for profit discount</h3>
-<p>Not for profit organisations can apply for a discount on their hourly rates.</p>
-</div></div></div>  </div>
-</div>
-
-</div></div>
-      </div>
-</div>
-
-</div><div class="field field-name-field-pricing field-type-text-long field-label-hidden">
-    <div class="field-items">
-          <div class="field-item even"><p><a href="/hall-booking-terms-and-conditions">Read all&nbsp;terms and conditions</a></p>
-</div>
-      </div>
-</div>
+                </div><div class="field field-name-field-pricing field-type-text-long field-label-hidden">
+                    <div class="field-items">
+                        <div class="field-item even"><p><a href="/hall-booking-terms-and-conditions">Read all&nbsp;terms and conditions</a></p>
+                </div>
+                    </div>
+                </div>
         <hr></hr>
         <div class="field-collection-container clearfix">
 
@@ -358,128 +365,10 @@ Brighton, VIC 3186</div>
 
 
 </div></div>
-          <div class="field-item odd"><div class="field-collection-view clearfix view-mode-full">
+            </div>
 
-<div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2894" typeof="">
-  <div class="content">
+      
     
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">What events are permitted?<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>Teenage birthday parties or deb and school formal parties are not permitted. All other events are allowed as long as they adhere to the <a href="https://www.bayside.vic.gov.au/hall-booking-terms-and-conditions">terms and conditions</a>.</p>
-</div></div></div>  </div>
-</div>
-
-
-</div></div>
-          <div class="field-item even"><div class="field-collection-view clearfix view-mode-full">
-
-<div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2895" typeof="">
-  <div class="content">
-    
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">What is not allowed in the hall?<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>Certain types of equipment or practices are not allowed in Brighton Town Hall, these are:</p>
-<ul>
-<li>All types of confetti or confetti machines</li>
-<li>Forklifts</li>
-<li>Mist or smoke machines</li>
-<li>Smoking</li>
-</ul>
-</div></div></div>  </div>
-</div>
-
-
-</div></div>
-          <div class="field-item odd"><div class="field-collection-view clearfix view-mode-full">
-
-<div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2896" typeof="">
-  <div class="content">
-    
-
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">When do I have to pay?<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>After we receive and approve your booking enquiry you will receive an email. This will confirm your event details and any payments that are required. You will then have 7 working days to pay in full to hold your booking.</p>
-</div></div></div>  </div>
-</div>
-
-
-</div></div>
-          <div class="field-item even"><div class="field-collection-view clearfix view-mode-full">
-
-<div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2897" typeof="">
-  <div class="content">
-    
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">Will you be selling alcohol?<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>To sell alcohol you will need a temporary limited licence from the <a href="https://www.vcglr.vic.gov.au/" target="_blank">Victorian Commission for Gambling and Liquor Regulation</a>.</p>
-</div></div></div>  </div>
-</div>
-
-
-</div></div>
-          <div class="field-item odd"><div class="field-collection-view clearfix view-mode-full">
-
-<div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2898" typeof="">
-  <div class="content">
-    
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">Will you be putting up advertising?<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>Please let us know when enquiring as there might be additional permits required.</p>
-</div></div></div>  </div>
-</div>
-
-</div></div>
-          <div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final">
-
-<div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2899" typeof="">
-  <div class="content">
-    
-
-<div class="field field-name-field-accordion-title field-type-text field-label-hidden">
-    <div class="field-items">
-          <h3 class="field-item even">Who can provide catering?<i class="fa fa-angle-up" aria-hidden="true"></i>
-</h3>
-      </div>
-</div>
-
-
-<div class="field field-name-field-accordion-body field-type-text-long field-label-hidden" style={{display: 'none'}}><div class="field-items"><div class="field-item even"><p>We do not provide catering. You can book the commercial kitchen which can be used to cater your event.</p>
-</div></div></div>  </div>
-</div>
-
-
-</div></div>
-      </div>
-
 
 
 <div class="field field-name-field-read-more field-type-link-field field-label-hidden">

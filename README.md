@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-## Please push your solution to your own branch
+## Push your solution to your own branch
 
 To create a new branch
 
@@ -44,5 +44,5 @@ Push changes to the repository
 
 ### `git push origin your_branch_name`
 
-Happy coding! Don't be scared to ask for help :)
+Happy coding! And don't be scared to ask for help :)
 
