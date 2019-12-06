@@ -3,7 +3,11 @@
 
 Welcome to the Bayside coding challenge! 
 
-Your task is to make the accordion on this page accessible using the tab key.
+Your task is to 
+
+1 - Change the name of Sandringham Town Hall to your own name! Push your commit to a new branch
+
+2 - Make the accordion on this page accessible using the tab key, for people who can't use the mouse.
 
 To get started, clone the repository
 
