@@ -25,7 +25,7 @@ function Hero(){
                     <div class="field-item even">Corner Carpenter St and Wilson St Brighton, VIC 3186</div>
                 </div>
             </div>
-            <h1>Sandringham Town Hall</h1>
+            <h1>Nicholas Burley's Town Hall</h1>
             <div class="bookable-spacesfield field-name-field-available-spaces field-type-text field-label-above">
             <div class="field-label">Bookable spaces</div>
             <ul class="field-items">
