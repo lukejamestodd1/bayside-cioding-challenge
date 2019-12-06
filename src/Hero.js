@@ -25,14 +25,14 @@ function Hero(){
                     <div class="field-item even">Corner Carpenter St and Wilson St Brighton, VIC 3186</div>
                 </div>
             </div>
-            <h1>Brighton Town Hall</h1>
+            <h1>Kylie McLeish</h1>
             <div class="bookable-spacesfield field-name-field-available-spaces field-type-text field-label-above">
             <div class="field-label">Bookable spaces</div>
             <ul class="field-items">
                 <li class="field-item even">Town hall</li>
             </ul>
         </div>
-        <span property="dc:title" content="Brighton Town Hall" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>        </div>
+        <span property="dc:title" content="Kylie McLeish" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>        </div>
       </div>
     </div>
     );
