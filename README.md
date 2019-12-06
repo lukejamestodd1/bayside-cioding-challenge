@@ -3,13 +3,18 @@
 
 Welcome to the Bayside coding challenge! 
 
-Your task is to 
+Your tasks are to...
 
-1 - Change the name of Sandringham Town Hall to your own name! Push your commit to a new branch
+1 - Change the name of Sandringham Town Hall to your own name.
 
 2 - Make the accordion on this page accessible using the tab key, for people who can't use the mouse.
 
-To get started, clone the repository
+To get started, make a new folder with your name in C:/users/ltodd/
+
+### `mkdir your_name`
+### `cd your_name`
+
+Clone the repository
 
 ### `git clone https://github.com/lukejamestodd1/bayside-coding-challenge.git`
 
@@ -48,5 +53,7 @@ Push changes to the repository
 
 ### `git push origin your_branch_name`
 
-Happy coding! And don't be scared to ask for help :)
+If you don't have a github login, I can log in for you
+
+Happy coding! And don't be afraid to ask for help :)
 
