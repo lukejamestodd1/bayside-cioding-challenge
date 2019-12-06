@@ -8,7 +8,7 @@ const Accordion = ({title, items, match}) => (
                 <div class="field-items">
                     {items.map((item, key) =>
                         <div class="entity entity-field-collection-item field-collection-item-field-before-booking clearfix closed" about="/field-collection/field-before-booking/2893" typeof="">
-                            <div class="content">
+                            <button class="content">
                                 <div class="field field-name-field-accordion-title field-type-text field-label-hidden">
                                     <div class="field-items">
                                         <h3 class="field-item even">{item}<i class="fa fa-angle-up" aria-hidden="true"></i></h3>
@@ -21,7 +21,7 @@ const Accordion = ({title, items, match}) => (
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </button>
                         </div>
                     )}
                 </div>
